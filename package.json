@@ -1,7 +1,7 @@
 {
   "name": "@my-app/react-app",
   "version": "1.0.0",
-  "homepage": "./",
+  "homepage": "http://./",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -15,7 +15,6 @@
     ]
   },
   "dependencies": {
-    "@my-app/contracts": "^1.0.0",
     "@apollo/client": "^3.5.10",
     "@ethersproject/contracts": "^5.6.0",
     "@ethersproject/providers": "^5.6.0",
@@ -49,5 +48,9 @@
     "ipfs": "yarn build && ipfs-deploy build/",
     "start": "react-scripts start",
     "test": "react-scripts test"
-  }
+  },
+  "description": "This package is a fork of the default app built with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }

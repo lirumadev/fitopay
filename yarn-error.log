@@ -1,0 +1,88 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Lenovo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Java\jdk1.8.0_202\bin;;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Users\Lenovo\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Lenovo\AppData\Local\Programs\Python\Python310\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;;C:\Users\Lenovo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Lenovo\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@my-app%2fcontracts: Not found
+      at Request.params.callback [as _callback] (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66145:18)
+      at Request.self.callback (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "@my-app/react-app",
+    "version": "1.0.0",
+    "homepage": "./",
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "dependencies": {
+      "@my-app/contracts": "^1.0.0",
+      "@apollo/client": "^3.5.10",
+      "@ethersproject/contracts": "^5.6.0",
+      "@ethersproject/providers": "^5.6.0",
+      "@testing-library/dom": "^8.11.3",
+      "@testing-library/jest-dom": "^5.16.2",
+      "@testing-library/react": "^12.1.4",
+      "@testing-library/user-event": "^13.5.0",
+      "@types/react": "^17.0.40",
+      "graphql": "^16.3.0",
+      "ipfs-deploy": "^11.2.0",
+      "react": "17.0.2",
+      "react-dom": "17.0.2",
+      "react-scripts": "4.0.3",
+      "styled-components": "^5.3.3",
+      "@usedapp/core": "^1.1.5",
+      "@uniswap/sdk": "^3.0.2",
+      "@uniswap/v2-core": "^1.0.1",
+      "@uniswap/v2-periphery": "^1.1.0-beta.0",
+      "ethers": "^5.7.0",
+      "web3": "^1.7.5"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "scripts": {
+      "build": "react-scripts build",
+      "eject": "react-scripts eject",
+      "ipfs": "yarn build && ipfs-deploy build/",
+      "start": "react-scripts start",
+      "test": "react-scripts test"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
